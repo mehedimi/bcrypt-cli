@@ -1,0 +1,6 @@
+/phpunit.xml
+/tests/.laravel-forge
+/vendor
+composer.lock
+.phpunit.result.cache
+.idea
