@@ -11,7 +11,7 @@ use Mehedi\BcryptCommand\Commands\MakeCommand;
 use Mehedi\BcryptCommand\Commands\VerifyCommand;
 use Symfony\Component\Console\Application;
 
-define('BC_VERSION', '0.0.1');
+define('BC_VERSION', '0.1.0');
 
 
 $app = new Application('Bcrypt Command Line Tool', BC_VERSION);
