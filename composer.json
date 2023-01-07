@@ -1,23 +1,27 @@
 {
-    "name": "mehedimi/bc-cli",
-    "description": "A bcrypt command line tool",
-    "require-dev": {
-        "phpunit/php-timer": "^5.0",
-        "phpunit/phpunit": "^9.5"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Mehedi\\BcryptCommand\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Mehedi Hasan",
-            "email": "mehedihasansabbirmi@gmail.com"
-        }
-    ],
-    "require": {
-        "symfony/console": "^6.2"
+  "name": "mehedimi/bcrypt-cli",
+  "description": "A bcrypt command line tool",
+  "require-dev": {
+    "phpunit/php-timer": "^5.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mehedi\\BcryptCommand\\": "src/"
     }
+  },
+  "bin": [
+    "bin/bcrypt"
+  ],
+  "authors": [
+    {
+      "name": "Mehedi Hasan",
+      "email": "mehedihasansabbirmi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "symfony/console": "^6.2"
+  }
 }
